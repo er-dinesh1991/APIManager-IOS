@@ -1,0 +1,43 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/dineshsaini/Library/Developer/Xcode/DerivedData/APIManager-hcntuuwdjdcmwvfeljiraixzmgcx/Build/Products/Debug-iphonesimulator/APIManager.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "APIManager-Swift.h",
+          'external-contents': "/Users/dineshsaini/Library/Developer/Xcode/DerivedData/APIManager-hcntuuwdjdcmwvfeljiraixzmgcx/Build/Products/Debug-iphonesimulator/APIManager.framework/Headers/APIManager-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "APIManager.h",
+          'external-contents': "/Users/dineshsaini/Documents/Framework/APIManager/APIManager/APIManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "Reachability.h",
+          'external-contents': "/Users/dineshsaini/Documents/Framework/APIManager/APIManager/Vendors/Reachability/Reachability.h"
+        },
+        {
+          'type': 'file',
+          'name': "ReachabilityUtil.h",
+          'external-contents': "/Users/dineshsaini/Documents/Framework/APIManager/APIManager/Vendors/Reachability/ReachabilityUtil.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/dineshsaini/Library/Developer/Xcode/DerivedData/APIManager-hcntuuwdjdcmwvfeljiraixzmgcx/Build/Products/Debug-iphonesimulator/APIManager.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/dineshsaini/Documents/Framework/APIManager/build/APIManager.build/Debug-iphonesimulator/APIManager.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

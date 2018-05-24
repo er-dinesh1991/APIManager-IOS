@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/dineshsaini/Library/Developer/Xcode/DerivedData/APIManager-hcntuuwdjdcmwvfeljiraixzmgcx/Build/Products/Debug-iphonesimulator/APIManager.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/dineshsaini/Documents/Framework/APIManager/build/APIManager.build/Debug-iphonesimulator/APIManager.build/unextended-module.modulemap',
+    }]
+  }]
+}

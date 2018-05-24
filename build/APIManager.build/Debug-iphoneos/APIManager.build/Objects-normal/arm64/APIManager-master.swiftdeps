@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "430c06be662fa977d44269501e1cd305"
+build_time: [1527138116, 655191000]
+inputs:
+  "/Users/dineshsaini/Documents/Framework/APIManager/APIManager/Extensions/UIApplication.swift": [1527059435, 0]
+  "/Users/dineshsaini/Documents/Framework/APIManager/APIManager/APIManager.swift": [1527138116, 0]
+  "/Users/dineshsaini/Documents/Framework/APIManager/APIManager/Extensions/UIViewController.swift": [1527059574, 0]
+  "/Users/dineshsaini/Documents/Framework/APIManager/APIManager/Extensions/UIWindow.swift": [1527059430, 0]

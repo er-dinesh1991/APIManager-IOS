@@ -1,0 +1,838 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RequestMethod"
+- "APIManager"
+provides-nominal:
+- "10APIManager13RequestMethodO"
+- "10APIManagerAAC"
+provides-member:
+- ["10APIManager13RequestMethodO", ""]
+- ["10APIManagerAAC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "+"
+- "=="
+- !private ">"
+- "APIManager"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CastingPrecedence"
+- "Data"
+- "Dictionary"
+- !private "DispatchQueue"
+- "Error"
+- !private "JSONSerialization"
+- !private "NSError"
+- !private "NSURLErrorBadURL"
+- !private "NSURLErrorCannotConnectToHost"
+- !private "NSURLErrorCannotFindHost"
+- !private "NSURLErrorNetworkConnectionLost"
+- !private "NSURLErrorTimedOut"
+- !private "NSURLErrorUnknown"
+- !private "NSURLErrorUnsupportedURL"
+- !private "NotReachable"
+- !private "ReachabilityUtil"
+- !private "ReachableViaWWAN"
+- !private "ReachableViaWiFi"
+- "RequestMethod"
+- "String"
+- "StringLiteralType"
+- "TimeInterval"
+- !private "UIApplication"
+- !private "URL"
+- !private "URLRequest"
+- "URLResponse"
+- "URLSession"
+- !private "URLSessionConfiguration"
+- "URLSessionTask"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "_findStringSwitchCase"
+- !private "print"
+- !private "~="
+depends-member:
+- ["10APIManagerAAC", "APIManager"]
+- ["10APIManagerAAC", "Bool"]
+- ["10APIManagerAAC", "Data"]
+- ["10APIManagerAAC", "Dictionary"]
+- !private ["10APIManagerAAC", "DispatchQueue"]
+- ["10APIManagerAAC", "Error"]
+- !private ["10APIManagerAAC", "JSONSerialization"]
+- !private ["10APIManagerAAC", "NSError"]
+- !private ["10APIManagerAAC", "NSURLErrorBadURL"]
+- !private ["10APIManagerAAC", "NSURLErrorCannotConnectToHost"]
+- !private ["10APIManagerAAC", "NSURLErrorCannotFindHost"]
+- !private ["10APIManagerAAC", "NSURLErrorNetworkConnectionLost"]
+- !private ["10APIManagerAAC", "NSURLErrorTimedOut"]
+- !private ["10APIManagerAAC", "NSURLErrorUnknown"]
+- !private ["10APIManagerAAC", "NSURLErrorUnsupportedURL"]
+- !private ["10APIManagerAAC", "NotReachable"]
+- !private ["10APIManagerAAC", "ReachabilityUtil"]
+- !private ["10APIManagerAAC", "ReachableViaWWAN"]
+- !private ["10APIManagerAAC", "ReachableViaWiFi"]
+- !private ["10APIManagerAAC", "RequestMethod"]
+- ["10APIManagerAAC", "String"]
+- ["10APIManagerAAC", "TimeInterval"]
+- !private ["10APIManagerAAC", "UIApplication"]
+- !private ["10APIManagerAAC", "URL"]
+- !private ["10APIManagerAAC", "URLRequest"]
+- ["10APIManagerAAC", "URLResponse"]
+- ["10APIManagerAAC", "URLSession"]
+- !private ["10APIManagerAAC", "URLSessionConfiguration"]
+- ["10APIManagerAAC", "URLSessionTask"]
+- ["10APIManagerAAC", "Void"]
+- !private ["10APIManagerAAC", "baseURL"]
+- ["10APIManagerAAC", "cancelRequest"]
+- ["10APIManagerAAC", "deinit"]
+- ["10APIManagerAAC", "get"]
+- ["10APIManagerAAC", "getAllRequests"]
+- ["10APIManagerAAC", "headers"]
+- ["10APIManagerAAC", "init"]
+- ["10APIManagerAAC", "initWith"]
+- ["10APIManagerAAC", "isNetworkIndicator"]
+- ["10APIManagerAAC", "makeQueryString"]
+- ["10APIManagerAAC", "post"]
+- !private ["10APIManagerAAC", "print"]
+- !private ["10APIManagerAAC", "session"]
+- !private ["10APIManagerAAC", "session.storage"]
+- ["10APIManagerAAC", "shared"]
+- ["10APIManagerAAC", "timeoutIntervalForRequest"]
+- ["10APIManagerAAC", "timeoutIntervalForResource"]
+- !private ["Sa", "count"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- !private ["s23BidirectionalCollectionP", "addingPercentEncoding"]
+- !private ["s23BidirectionalCollectionP", "appending"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "filter"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "removeLast"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["So15CALayerDelegateP", "topMostWindowController"]
+- !private ["s7CVarArgP", "ReadingOptions"]
+- !private ["s7CVarArgP", "WritingOptions"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addingPercentEncoding"]
+- !private ["s7CVarArgP", "appending"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "cancel"]
+- !private ["s7CVarArgP", "code"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "getAllTasks"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isNetworkActivityIndicatorVisible"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "keyWindow"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "presentAlertController"]
+- !private ["s7CVarArgP", "reachability"]
+- !private ["s7CVarArgP", "removeLast"]
+- !private ["s7CVarArgP", "requestCachePolicy"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "taskDescription"]
+- !private ["s7CVarArgP", "timeoutIntervalForRequest"]
+- !private ["s7CVarArgP", "timeoutIntervalForResource"]
+- !private ["s7CVarArgP", "topMostWindowController"]
+- !private ["s7CVarArgP", "urlCache"]
+- !private ["So12NSURLRequestC11CachePolicyO", "reloadIgnoringLocalCacheData"]
+- !private ["10Foundation12CharacterSetV", "urlQueryAllowed"]
+- !private ["s10CollectionP", "addingPercentEncoding"]
+- !private ["s10CollectionP", "appending"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "filter"]
+- !private ["s10CollectionP", "first"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "removeLast"]
+- !private ["s10ComparableP", "addingPercentEncoding"]
+- !private ["s10ComparableP", "appending"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "removeLast"]
+- !private ["s28CustomDebugStringConvertibleP", "ReadingOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "WritingOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "addValue"]
+- !private ["s28CustomDebugStringConvertibleP", "addingPercentEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "appending"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "code"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "getAllTasks"]
+- !private ["s28CustomDebugStringConvertibleP", "httpBody"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isNetworkActivityIndicatorVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "keyWindow"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "presentAlertController"]
+- !private ["s28CustomDebugStringConvertibleP", "reachability"]
+- !private ["s28CustomDebugStringConvertibleP", "removeLast"]
+- !private ["s28CustomDebugStringConvertibleP", "requestCachePolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "taskDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "timeoutIntervalForRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "timeoutIntervalForResource"]
+- !private ["s28CustomDebugStringConvertibleP", "topMostWindowController"]
+- !private ["s28CustomDebugStringConvertibleP", "urlCache"]
+- !private ["s28CustomDebugStringConvertibleP", "urlQueryAllowed"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "addingPercentEncoding"]
+- !private ["s29CustomPlaygroundQuickLookableP", "appending"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "removeLast"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "addValue"]
+- !private ["s17CustomReflectableP", "addingPercentEncoding"]
+- !private ["s17CustomReflectableP", "appending"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "httpBody"]
+- !private ["s17CustomReflectableP", "httpMethod"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeLast"]
+- !private ["s23CustomStringConvertibleP", "ReadingOptions"]
+- !private ["s23CustomStringConvertibleP", "WritingOptions"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addValue"]
+- !private ["s23CustomStringConvertibleP", "addingPercentEncoding"]
+- !private ["s23CustomStringConvertibleP", "appending"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "code"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "getAllTasks"]
+- !private ["s23CustomStringConvertibleP", "httpBody"]
+- !private ["s23CustomStringConvertibleP", "httpMethod"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isNetworkActivityIndicatorVisible"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "keyWindow"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "presentAlertController"]
+- !private ["s23CustomStringConvertibleP", "reachability"]
+- !private ["s23CustomStringConvertibleP", "removeLast"]
+- !private ["s23CustomStringConvertibleP", "requestCachePolicy"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "taskDescription"]
+- !private ["s23CustomStringConvertibleP", "timeoutIntervalForRequest"]
+- !private ["s23CustomStringConvertibleP", "timeoutIntervalForResource"]
+- !private ["s23CustomStringConvertibleP", "topMostWindowController"]
+- !private ["s23CustomStringConvertibleP", "urlCache"]
+- !private ["s23CustomStringConvertibleP", "urlQueryAllowed"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "addingPercentEncoding"]
+- !private ["s9DecodableP", "appending"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "filter"]
+- !private ["s9DecodableP", "first"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "removeLast"]
+- !private ["s9DecodableP", "urlQueryAllowed"]
+- !private ["s10DictionaryV", "count"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "addingPercentEncoding"]
+- !private ["s9EncodableP", "appending"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "filter"]
+- !private ["s9EncodableP", "first"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "removeLast"]
+- !private ["s9EncodableP", "urlQueryAllowed"]
+- !private ["s9EquatableP", "GET"]
+- !private ["s9EquatableP", "POST"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "ReadingOptions"]
+- !private ["s9EquatableP", "WritingOptions"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_findStringSwitchCase"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addValue"]
+- !private ["s9EquatableP", "addingPercentEncoding"]
+- !private ["s9EquatableP", "allowFragments"]
+- !private ["s9EquatableP", "appending"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "cancel"]
+- !private ["s9EquatableP", "code"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "data"]
+- !private ["s9EquatableP", "dataTask"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "filter"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "getAllTasks"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "httpBody"]
+- !private ["s9EquatableP", "httpMethod"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isNetworkActivityIndicatorVisible"]
+- !private ["s9EquatableP", "jsonObject"]
+- !private ["s9EquatableP", "keyWindow"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "presentAlertController"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "reachability"]
+- !private ["s9EquatableP", "reloadIgnoringLocalCacheData"]
+- !private ["s9EquatableP", "removeLast"]
+- !private ["s9EquatableP", "requestCachePolicy"]
+- !private ["s9EquatableP", "resume"]
+- !private ["s9EquatableP", "rootViewController"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "taskDescription"]
+- !private ["s9EquatableP", "timeoutIntervalForRequest"]
+- !private ["s9EquatableP", "timeoutIntervalForResource"]
+- !private ["s9EquatableP", "topMostWindowController"]
+- !private ["s9EquatableP", "urlCache"]
+- !private ["s9EquatableP", "urlQueryAllowed"]
+- !private ["s5ErrorP", "code"]
+- !private ["s25ExpressibleByArrayLiteralP", "allowFragments"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "urlQueryAllowed"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "count"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "appending"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "removeLast"]
+- !private ["s26ExpressibleByStringLiteralP", "addingPercentEncoding"]
+- !private ["s26ExpressibleByStringLiteralP", "appending"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "removeLast"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "addingPercentEncoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "appending"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "removeLast"]
+- !private ["s8HashableP", "GET"]
+- !private ["s8HashableP", "POST"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "ReadingOptions"]
+- !private ["s8HashableP", "WritingOptions"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_findStringSwitchCase"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addValue"]
+- !private ["s8HashableP", "addingPercentEncoding"]
+- !private ["s8HashableP", "appending"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "cancel"]
+- !private ["s8HashableP", "code"]
+- !private ["s8HashableP", "data"]
+- !private ["s8HashableP", "dataTask"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "getAllTasks"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "httpBody"]
+- !private ["s8HashableP", "httpMethod"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isNetworkActivityIndicatorVisible"]
+- !private ["s8HashableP", "jsonObject"]
+- !private ["s8HashableP", "keyWindow"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "presentAlertController"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "reachability"]
+- !private ["s8HashableP", "reloadIgnoringLocalCacheData"]
+- !private ["s8HashableP", "removeLast"]
+- !private ["s8HashableP", "requestCachePolicy"]
+- !private ["s8HashableP", "resume"]
+- !private ["s8HashableP", "rootViewController"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "taskDescription"]
+- !private ["s8HashableP", "timeoutIntervalForRequest"]
+- !private ["s8HashableP", "timeoutIntervalForResource"]
+- !private ["s8HashableP", "topMostWindowController"]
+- !private ["s8HashableP", "urlCache"]
+- !private ["s8HashableP", "urlQueryAllowed"]
+- !private ["So17JSONSerializationC", "ReadingOptions"]
+- !private ["So17JSONSerializationC", "WritingOptions"]
+- !private ["So17JSONSerializationC", "data"]
+- !private ["So17JSONSerializationC", "jsonObject"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "addingPercentEncoding"]
+- !private ["s25LosslessStringConvertibleP", "appending"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "removeLast"]
+- !private ["s10MirrorPathP", "addingPercentEncoding"]
+- !private ["s10MirrorPathP", "appending"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "removeLast"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "filter"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["So8NSCodingP", "addingPercentEncoding"]
+- !private ["So8NSCodingP", "appending"]
+- !private ["So8NSCodingP", "code"]
+- !private ["So8NSCodingP", "presentAlertController"]
+- !private ["So8NSCodingP", "removeLast"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So8NSCodingP", "topMostWindowController"]
+- !private ["So9NSCopyingP", "addingPercentEncoding"]
+- !private ["So9NSCopyingP", "appending"]
+- !private ["So9NSCopyingP", "cancel"]
+- !private ["So9NSCopyingP", "code"]
+- !private ["So9NSCopyingP", "default"]
+- !private ["So9NSCopyingP", "removeLast"]
+- !private ["So9NSCopyingP", "requestCachePolicy"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "taskDescription"]
+- !private ["So9NSCopyingP", "timeoutIntervalForRequest"]
+- !private ["So9NSCopyingP", "timeoutIntervalForResource"]
+- !private ["So9NSCopyingP", "urlCache"]
+- !private ["So7NSErrorC", "code"]
+- !private ["So26NSExtensionRequestHandlingP", "presentAlertController"]
+- !private ["So21NSItemProviderReadingP", "addingPercentEncoding"]
+- !private ["So21NSItemProviderReadingP", "appending"]
+- !private ["So21NSItemProviderReadingP", "removeLast"]
+- !private ["So21NSItemProviderWritingP", "addingPercentEncoding"]
+- !private ["So21NSItemProviderWritingP", "appending"]
+- !private ["So21NSItemProviderWritingP", "removeLast"]
+- !private ["So16NSMutableCopyingP", "addingPercentEncoding"]
+- !private ["So16NSMutableCopyingP", "appending"]
+- !private ["So16NSMutableCopyingP", "removeLast"]
+- !private ["So8NSObjectC", "ReadingOptions"]
+- !private ["So8NSObjectC", "WritingOptions"]
+- !private ["So8NSObjectC", "addingPercentEncoding"]
+- !private ["So8NSObjectC", "appending"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "cancel"]
+- !private ["So8NSObjectC", "code"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "getAllTasks"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isNetworkActivityIndicatorVisible"]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectC", "keyWindow"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "presentAlertController"]
+- !private ["So8NSObjectC", "reachability"]
+- !private ["So8NSObjectC", "removeLast"]
+- !private ["So8NSObjectC", "requestCachePolicy"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "rootViewController"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "taskDescription"]
+- !private ["So8NSObjectC", "timeoutIntervalForRequest"]
+- !private ["So8NSObjectC", "timeoutIntervalForResource"]
+- !private ["So8NSObjectC", "topMostWindowController"]
+- !private ["So8NSObjectC", "urlCache"]
+- !private ["So16NSObjectProtocolP", "ReadingOptions"]
+- !private ["So16NSObjectProtocolP", "WritingOptions"]
+- !private ["So16NSObjectProtocolP", "addingPercentEncoding"]
+- !private ["So16NSObjectProtocolP", "appending"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "cancel"]
+- !private ["So16NSObjectProtocolP", "code"]
+- !private ["So16NSObjectProtocolP", "data"]
+- !private ["So16NSObjectProtocolP", "dataTask"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "getAllTasks"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isNetworkActivityIndicatorVisible"]
+- !private ["So16NSObjectProtocolP", "jsonObject"]
+- !private ["So16NSObjectProtocolP", "keyWindow"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "presentAlertController"]
+- !private ["So16NSObjectProtocolP", "reachability"]
+- !private ["So16NSObjectProtocolP", "removeLast"]
+- !private ["So16NSObjectProtocolP", "requestCachePolicy"]
+- !private ["So16NSObjectProtocolP", "resume"]
+- !private ["So16NSObjectProtocolP", "rootViewController"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "taskDescription"]
+- !private ["So16NSObjectProtocolP", "timeoutIntervalForRequest"]
+- !private ["So16NSObjectProtocolP", "timeoutIntervalForResource"]
+- !private ["So16NSObjectProtocolP", "topMostWindowController"]
+- !private ["So16NSObjectProtocolP", "urlCache"]
+- !private ["So14NSSecureCodingP", "addingPercentEncoding"]
+- !private ["So14NSSecureCodingP", "appending"]
+- !private ["So14NSSecureCodingP", "code"]
+- !private ["So14NSSecureCodingP", "removeLast"]
+- !private ["So8NSStringC", "addingPercentEncoding"]
+- !private ["So8NSStringC", "appending"]
+- !private ["So8NSStringC", "removeLast"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["s9OptionSetP", "allowFragments"]
+- !private ["s9OptionSetP", "init"]
+- !private ["So17ProgressReportingP", "cancel"]
+- !private ["So17ProgressReportingP", "resume"]
+- !private ["So17ProgressReportingP", "taskDescription"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "filter"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "addingPercentEncoding"]
+- !private ["s26RangeReplaceableCollectionP", "appending"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "filter"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "removeLast"]
+- !private ["s16RawRepresentableP", "GET"]
+- !private ["s16RawRepresentableP", "POST"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- !private ["s16RawRepresentableP", "_findStringSwitchCase"]
+- !private ["s16RawRepresentableP", "allowFragments"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "reloadIgnoringLocalCacheData"]
+- !private ["So16ReachabilityUtilC", "reachability"]
+- !private ["So17JSONSerializationC14ReadingOptionsV", "allowFragments"]
+- !private ["10Foundation20ReferenceConvertibleP", "addValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpBody"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpMethod"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "urlQueryAllowed"]
+- ["10APIManager13RequestMethodO", "DELETE"]
+- ["10APIManager13RequestMethodO", "GET"]
+- ["10APIManager13RequestMethodO", "POST"]
+- ["10APIManager13RequestMethodO", "PUT"]
+- ["10APIManager13RequestMethodO", "RawValue"]
+- ["10APIManager13RequestMethodO", "_Default_RawValue"]
+- !private ["10APIManager13RequestMethodO", "_findStringSwitchCase"]
+- ["10APIManager13RequestMethodO", "deinit"]
+- ["10APIManager13RequestMethodO", "hashValue"]
+- ["10APIManager13RequestMethodO", "init"]
+- ["10APIManager13RequestMethodO", "rawValue"]
+- !private ["s8SequenceP", "addingPercentEncoding"]
+- !private ["s8SequenceP", "appending"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "filter"]
+- !private ["s8SequenceP", "first"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "removeLast"]
+- !private ["s10SetAlgebraP", "allowFragments"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "urlQueryAllowed"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "addingPercentEncoding"]
+- !private ["SS", "appending"]
+- ["SS", "init"]
+- !private ["SS", "removeLast"]
+- !private ["s14StringProtocolP", "addingPercentEncoding"]
+- !private ["s14StringProtocolP", "appending"]
+- ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "removeLast"]
+- !private ["s16TextOutputStreamP", "addingPercentEncoding"]
+- !private ["s16TextOutputStreamP", "appending"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "removeLast"]
+- !private ["s20TextOutputStreamableP", "addingPercentEncoding"]
+- !private ["s20TextOutputStreamableP", "appending"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "removeLast"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So29UIAccessibilityIdentificationP", "topMostWindowController"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So12UIAppearanceP", "topMostWindowController"]
+- !private ["So21UIAppearanceContainerP", "presentAlertController"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "topMostWindowController"]
+- !private ["So13UIApplicationC", "isNetworkActivityIndicatorVisible"]
+- !private ["So13UIApplicationC", "keyWindow"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So18UIContentContainerP", "presentAlertController"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So17UICoordinateSpaceP", "topMostWindowController"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "topMostWindowController"]
+- !private ["So18UIFocusEnvironmentP", "presentAlertController"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "topMostWindowController"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So11UIFocusItemP", "topMostWindowController"]
+- !private ["So30UIPasteConfigurationSupportingP", "isNetworkActivityIndicatorVisible"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentAlertController"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "topMostWindowController"]
+- !private ["So11UIResponderC", "isNetworkActivityIndicatorVisible"]
+- !private ["So11UIResponderC", "keyWindow"]
+- !private ["So11UIResponderC", "presentAlertController"]
+- !private ["So11UIResponderC", "rootViewController"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So11UIResponderC", "topMostWindowController"]
+- !private ["So30UIResponderStandardEditActionsP", "isNetworkActivityIndicatorVisible"]
+- !private ["So30UIResponderStandardEditActionsP", "keyWindow"]
+- !private ["So30UIResponderStandardEditActionsP", "presentAlertController"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "topMostWindowController"]
+- !private ["So16UIStateRestoringP", "presentAlertController"]
+- !private ["So18UITraitEnvironmentP", "presentAlertController"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So18UITraitEnvironmentP", "topMostWindowController"]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So6UIViewC", "topMostWindowController"]
+- !private ["So16UIViewControllerC", "presentAlertController"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["So8UIWindowC", "topMostWindowController"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation10URLRequestV", "addValue"]
+- !private ["10Foundation10URLRequestV", "httpBody"]
+- !private ["10Foundation10URLRequestV", "httpMethod"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["So10URLSessionC", "dataTask"]
+- !private ["So10URLSessionC", "getAllTasks"]
+- !private ["So10URLSessionC", "init"]
+- !private ["So23URLSessionConfigurationC", "default"]
+- !private ["So23URLSessionConfigurationC", "requestCachePolicy"]
+- !private ["So23URLSessionConfigurationC", "timeoutIntervalForRequest"]
+- !private ["So23URLSessionConfigurationC", "timeoutIntervalForResource"]
+- !private ["So23URLSessionConfigurationC", "urlCache"]
+- !private ["So18URLSessionDataTaskC", "resume"]
+- !private ["So18URLSessionDataTaskC", "taskDescription"]
+- !private ["So14URLSessionTaskC", "cancel"]
+- !private ["So14URLSessionTaskC", "resume"]
+- !private ["So14URLSessionTaskC", "taskDescription"]
+- !private ["So17JSONSerializationC14WritingOptionsV", "init"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "topMostWindowController"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "appending"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "removeLast"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "addingPercentEncoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "appending"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "removeLast"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "addingPercentEncoding"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "appending"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "removeLast"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "addingPercentEncoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "appending"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "removeLast"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "addingPercentEncoding"]
+- !private ["s33_ExpressibleByStringInterpolationP", "appending"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "removeLast"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "addingPercentEncoding"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "appending"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeLast"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ReadingOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "WritingOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addingPercentEncoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appending"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "code"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getAllTasks"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isNetworkActivityIndicatorVisible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyWindow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presentAlertController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reachability"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeLast"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestCachePolicy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "taskDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeoutIntervalForRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeoutIntervalForResource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "topMostWindowController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "urlCache"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "addValue"]
+- !private ["s21_ObjectiveCBridgeableP", "addingPercentEncoding"]
+- !private ["s21_ObjectiveCBridgeableP", "appending"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "httpBody"]
+- !private ["s21_ObjectiveCBridgeableP", "httpMethod"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeLast"]
+- !private ["s21_ObjectiveCBridgeableP", "urlQueryAllowed"]
+- !private ["s16_SwiftStringViewP", "addingPercentEncoding"]
+- !private ["s16_SwiftStringViewP", "appending"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "removeLast"]
+depends-nominal:
+- "10APIManagerAAC"
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "So12NSURLRequestC11CachePolicyO"
+- !private "10Foundation12CharacterSetV"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "So17JSONSerializationC"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So9OS_objectC"
+- !private "s9OptionSetP"
+- !private "So17ProgressReportingP"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "So16ReachabilityUtilC"
+- !private "So17JSONSerializationC14ReadingOptionsV"
+- !private "10Foundation20ReferenceConvertibleP"
+- "10APIManager13RequestMethodO"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "So8UIWindowC"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- !private "So10URLSessionC"
+- !private "So23URLSessionConfigurationC"
+- !private "So18URLSessionDataTaskC"
+- !private "So14URLSessionTaskC"
+- !private "So17JSONSerializationC14WritingOptionsV"
+- !private "s14_ArrayProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/dineshsaini/Documents/Framework/APIManager/APIManager/Vendors/Reachability/ReachabilityUtil.h"
+- "/Users/dineshsaini/Documents/Framework/APIManager/APIManager/APIManager.h"
+- "/Users/dineshsaini/Documents/Framework/APIManager/APIManager/Vendors/Reachability/Reachability.h"
+- "/Users/dineshsaini/Documents/Framework/APIManager/build/APIManager.build/Debug-iphonesimulator/APIManager.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "8575e6519f19676fe6c4b5820e4af95b"

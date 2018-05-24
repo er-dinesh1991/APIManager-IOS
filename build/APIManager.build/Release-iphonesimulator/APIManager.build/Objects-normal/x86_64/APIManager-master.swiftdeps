@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "075a4b9937e4e821f5d6e5fa003ae927"
+build_time: [1526986238, 847840000]
+inputs:
+  "/Users/dineshsaini/Documents/Framework/APIManager/APIManager/APIManager.swift": [9223372036, 854775807]

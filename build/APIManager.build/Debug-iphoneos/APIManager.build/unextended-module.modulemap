@@ -1,0 +1,10 @@
+framework module APIManager {
+  umbrella header "APIManager.h"
+
+  export *
+  module * { export * }
+}
+
+module APIManager.__Swift {
+    exclude header "APIManager-Swift.h"
+}
